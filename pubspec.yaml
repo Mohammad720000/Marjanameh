@@ -1,0 +1,25 @@
+
+name: marjnameh
+description: آرشیو و جست‌وجوی اسناد PDF
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.0.0
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  sqflite: ^2.3.3+1
+  syncfusion_flutter_pdf: ^26.2.14
+  syncfusion_flutter_pdfviewer: ^26.2.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
